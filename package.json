@@ -1,0 +1,12 @@
+{
+  "name": "vuforia",
+  "author": "Jonas Liljestrand <jonas.liljestrand@gmail.com>",
+  "version": "0.0.2",
+  "dependencies": {
+    "superagent": "~0.17.0"
+  },
+  "devDependencies": {
+    "chai": "~1.9.0",
+    "mocha": "~1.17.1"
+  }
+}
