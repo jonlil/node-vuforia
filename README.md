@@ -1,0 +1,4 @@
+node-vuforia
+============
+
+Vuforia API
