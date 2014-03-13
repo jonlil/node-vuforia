@@ -89,9 +89,17 @@ describe("Should get", function(){
 
     it("specific target", function(done){
         vuforia.getTarget(targets[0], function(err, data){
-            assert.isTrue(/^(success|processing)$/.test(data.status));
+            assert.isTrue(/^(success|processing|failure)$/.test(data.status));
             assert.isDefined(data.target_record);
 
+            done(err);
+        });
+    });
+
+    it("target summary", function(done){
+        vuforia.getTargetSummary(targets[0], function(err, data){
+            assert.isTrue(/^(success|processing|failure)$/.test(data.status));
+            assert.isNumber(data.tracking_rating);
             done(err);
         });
     });
