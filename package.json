@@ -3,7 +3,7 @@
   "author": "Jonas Liljestrand <jonas.liljestrand@gmail.com>",
   "version": "0.0.4",
   "dependencies": {
-    "superagent": "~0.17.0",
+    "superagent": "~6.0.0",
     "async": "~0.2.10",
     "lodash": "~2.4.1"
   },
